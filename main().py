@@ -100,8 +100,8 @@ def serialGetParmaters(inputValues):
         fileName = inputValues[6]  + ".txt" #+ str(j+1) #Builds the file name and adds .txt to make it openable
 
         with open(fileName, "a") as f: #Writes the Headers to the file includes data lable and run number
-                f.write(f"Run Number = {j+1} \n")
-                f.write(f"Date  formatted_time   timestep    value \n")
+                #f.write(f"Run Number = {j+1} \n")
+                f.write(f"Date  formatted_time  TrialNumber   timestep    value \n")
 
         print()
         print("Starting new run", j+1) #User feedback as to what trial it is on
@@ -134,7 +134,7 @@ def serialGetParmaters(inputValues):
             print(" -> -> -> -> ->",i , end = '', flush=True) #User feed back that data is being collected
             
             with open(fileName, "a", encoding="utf-8") as f: #writes data to the file to be saved 
-                f.write(f"{formatted_time}   {i}    {response}\r")
+                f.write(f"{formatted_time}   {j}    {i}    {response}\r")
 
             time.sleep(timeStep) #delay between samples to be taken
         
