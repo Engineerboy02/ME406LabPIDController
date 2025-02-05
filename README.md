@@ -1,7 +1,10 @@
 # ME406LabPIDController
 ME 406 PID lab Serial communication
 
+---
 ### Install Visual studio
+    Only required if you don't have Visual studio installed already
+
 1.	Download the installer [Visual Studio Code Download link](https://code.visualstudio.com/Download)
 
 ![Download VSC](/Python%20PID%20Control%20Screenshots/IVS_0_Download%20VSC.jpg "Download VSC")
@@ -28,7 +31,7 @@ ME 406 PID lab Serial communication
 
 6. congrats you have now installed  Visual Studio Code
 
-
+---
 ### Set up VSC for python
 1.	File -> New text file
 2.	Select a language
