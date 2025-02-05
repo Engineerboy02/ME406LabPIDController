@@ -33,6 +33,11 @@ Only required if you don't have Visual studio installed already
 
 
 ## Set up VSC for python
+see below for skiping steps
+For installing the extension cont. below 
+For just the interpreter start at step 8
+If you have already installed the Python extension and interpreter make a new .py fial and head to step 15 and verify you get an output.
+
 1.	Open Visual Studio code to the main page
 
 ![Main Window](/Python%20PID%20Control%20Screenshots/SUVS_1_Main%20window.png "Main Window")
