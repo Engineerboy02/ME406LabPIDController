@@ -248,19 +248,18 @@ Only required if you don't have Visual studio installed already
 
 13.	Once you hit run you should get the output below and the number will slowly count up to the final number of samples
 
-![](/Python%20PID%20Control%20Screenshots"")
+![](/Python%20PID%20Control%20Screenshots/HTUTPS_13_VSC%20Terminal%20during%20run%20time%20initial%20output.png"")
 
 14.	After the run there will be a delay after the run to let the tank drain. The script polls data from the controller until the tank is “Empty” then stats again appending to the existing python file
 
-![](/Python%20PID%20Control%20Screenshots"")
+![](/Python%20PID%20Control%20Screenshots/FDFGH_14_VSC%20something%20like%20this%20opened.png"")
 
 15.	Now you just need to wait till the trials have been completed
 
-![](/Python%20PID%20Control%20Screenshots"")
 
 16.	Once the trials have been completed you can open the .txt file named in step 11 in excel
 
-![](/Python%20PID%20Control%20Screenshots"")
+![](/Python%20PID%20Control%20Screenshots/HTUTPS_16_VSC%20Terminal%20after%20completion.png"")
 
 17.	You will need to delimited by **SPACE** in order to get the data organized
 
