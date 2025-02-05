@@ -144,7 +144,7 @@ Only required if you don't have Visual studio installed already
 
 8.	Enter the displayed folder and it should give you what is seen below
 
-![](/Python%20PID%20Control%20Screenshots/FDFGH_8A_VSC%20Home%20page.png"")
+![](/Python%20PID%20Control%20Screenshots/FDFGH_8A_VSC%20Home%20page.png "")
 
 9.	Take note of the save location by right clicking on the file tree and clicking “copy address” then head to Visual Studio Code
 
