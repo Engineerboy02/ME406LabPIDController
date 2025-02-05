@@ -255,7 +255,7 @@ Only required if you don't have Visual studio installed already
 ![](/Python%20PID%20Control%20Screenshots/FDFGH_14_VSC%20something%20like%20this%20opened.png"")
 
 15.	Now you just need to wait till the trials have been completed
-
+text?
 
 16.	Once the trials have been completed you can open the .txt file named in step 11 in excel
 
