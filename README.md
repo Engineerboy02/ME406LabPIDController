@@ -1,6 +1,7 @@
 # ME406LabPIDController
 ME 406 PID lab Serial communication
 
+This guide it for Windows 10 and 11 if you have another oerating system you will need to make special changes to the instalation and setup
 
 ## Install Visual studio
 Only required if you don't have Visual studio installed already
@@ -245,4 +246,25 @@ Only required if you don't have Visual studio installed already
 
 ![](/Python%20PID%20Control%20Screenshots/HTUTPS_12_VSC%20Terminal%20during%20run%20time%20enter%20to%20start%20sampiling.png "")
 
-13.	That is how the python script runs and what things you need to change
+13.	Once you hit run you should get the output below and the number will slowly count up to the final number of samples
+
+![](/Python%20PID%20Control%20Screenshots"")
+
+14.	After the run there will be a delay after the run to let the tank drain. The script polls data from the controller until the tank is “Empty” then stats again appending to the existing python file
+
+![](/Python%20PID%20Control%20Screenshots"")
+
+15.	Now you just need to wait till the trials have been completed
+
+![](/Python%20PID%20Control%20Screenshots"")
+
+16.	Once the trials have been completed you can open the .txt file named in step 11 in excel
+
+![](/Python%20PID%20Control%20Screenshots"")
+
+17.	You will need to delimited by **SPACE** in order to get the data organized
+
+![](/Python%20PID%20Control%20Screenshots"")
+
+18.	That is how the python script runs and what things you need to change to get your data
+
