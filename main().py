@@ -134,7 +134,7 @@ def serialGetParmaters(inputValues):
             print(" -> -> -> -> ->",i , end = '', flush=True) #User feed back that data is being collected
             
             with open(fileName, "a", encoding="utf-8") as f: #writes data to the file to be saved 
-                f.write(f"{formatted_time}   {j}    {i}    {response}\r")
+                f.write(f"{formatted_time}   {j+1}    {i}    {response}\r")
 
             time.sleep(timeStep) #delay between samples to be taken
         
