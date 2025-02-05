@@ -5,7 +5,7 @@ ME 406 PID lab Serial communication
 
 1. Ensure that Visual Studio Code (VSCode) is installed on your system. Visit [Visual Studio Code Download](https://code.visualstudio.com/Download). Click on the blue download button for 'Windows'.
 
-![VS Code Download](https://github.com/Engineerboy02/ME406LabPIDController/blob/main/Python%20PID%20Control%20Screenshots/(01)%20VS%20Code%20Download.jpg "VS Code Download")
+![VS Code Download](/Python%20PID%20Control%20Screenshots/IVS_1_LicenceAgreemanet.png "VS Code Download")
 
 2. Follow the setup wizard to complete the install of VSCode.
 
