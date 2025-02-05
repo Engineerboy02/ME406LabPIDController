@@ -93,7 +93,7 @@ ME 406 PID lab Serial communication
 
 ![Test Script](/Python%20PID%20Control%20Screenshots/SUVS_9_test%20script.png "Test Script")
 
-16.	To run hit the Triangle:![Run Button](/Python%20PID%20Control%20Screenshots/SUVS_10_run%20button.png "Run Button") in the top of the window to run
+16.	To run hit the Triangle  ![Run Button](/Python%20PID%20Control%20Screenshots/SUVS_10_run%20button.png "Run Button")   in the top of the window to run
 
 ![Run Button Global](/Python%20PID%20Control%20Screenshots/SUVS_10b_runbutton%20location.png "Run Button Global")
 
