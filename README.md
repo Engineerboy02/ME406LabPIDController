@@ -1,6 +1,48 @@
 # ME406LabPIDController
 ME 406 PID lab Serial communication
 
+### Install Visual studio
+1.	Download the installer [Visual Studio Code Download link](https://code.visualstudio.com/Download)
+![Download VSC](/Python%20PID%20Control%20Screenshots/IVS_0_Download%20VSC.jpg "Download VSC")
+2.	Once downloaded launch the installer
+3.	Once launched it will ask for setting see screen shots for the info
+![Licence Agreement](/Python%20PID%20Control%20Screenshots/IVS_1_LicenceAgreemanet.png "Licence Agreement")
+![Install Path](/Python%20PID%20Control%20Screenshots/IVS_2_Select%20install%20Path.png "install path")
+![Start menu folder](/Python%20PID%20Control%20Screenshots/IVS_3_Select%20start%20menue%20folder.png "Start menu folder")
+###### Desktop shortcut not required
+![Desktop short cut](/Python%20PID%20Control%20Screenshots/IVS_4_creat%20desktop%20icon.png "Desktop short cut")
+![Ready to install](/Python%20PID%20Control%20Screenshots/IVS_5_ready%20to%20install.png "Ready to install")
+4.	Finish and launch VSC
+![Installing](/Python%20PID%20Control%20Screenshots/IVS_6_Installing.png "Installing")
+5.	Done end image
+![Install finished](/Python%20PID%20Control%20Screenshots/IVS_7_VSC%20installed%20finish.jpg "Install finished")
+6. congrats you have installed  Visual Studio Code
+
+
+### Set up VSC for python
+1.	File -> New text file
+2.	Select a language
+3.	Search “Python”
+4.	Select or hit enter
+5.	In the bottom right a box should appear asking to install the “Python extension for Visual Studio Code” hit Install
+6.	After installation go back to the untitled-1 file
+7.	Next go to the bottom right of the screen and click on the “Select interpreter”
+8.	Next in the top middle click on python not installed click for instructions
+9.	It will open the Microsoft store click install and wait for it to complete
+10.	After it has been installed exit the Microsoft store and head back to VSC
+11.	again, go to the bottom right of the screen and click on the “Select interpreter”
+12.	In the top middle click on “Python 3.11.x …." 
+13.	The text that once said “Select interpreter” should now say “3.11.9 Microsoft store”
+14.	To test the installation copy or type “print(“Hello, world”)” into the unnamed python file we created in step 1
+15.	To run hit the Triangle in the top of the window to run
+16.	When prompted to save the file to a place of your choosing (ex. Downloads folder)
+17.	After which you should get the following output in the terminal on the bottom of your screen 
+18.	Congratulations you have set python up in Visual Studio Code
+
+
+
+
+
 ## Installation of Visual Studio Code and the Python Interperter
 
 1. Ensure that Visual Studio Code (VSCode) is installed on your system. Visit [Visual Studio Code Download](https://code.visualstudio.com/Download). Click on the blue download button for 'Windows'.
@@ -60,40 +102,3 @@ ME 406 PID lab Serial communication
 ##### Step :
 
 ![alt]( "PIC Name")
-
-### Install Visual studio
-1.	Download the installer [Visual Studio Code Download link](https://code.visualstudio.com/Download)
-![Download VSC](/Python%20PID%20Control%20Screenshots/IVS_0_Download%20VSC.jpg "Download VSC")
-2.	Once downloaded launch the installer
-3.	Once launched it will ask for setting see screen shots for the info
-![Licence Agreement](/Python%20PID%20Control%20Screenshots/IVS_1_LicenceAgreemanet.png "Licence Agreement")
-![Install Path](/Python%20PID%20Control%20Screenshots/IVS_2_Select%20install%20Path.png "install path")
-![Start menu folder](/Python%20PID%20Control%20Screenshots/IVS_3_Select%20start%20menue%20folder.png "Start menu folder")
-![Desktop short cut](/Python%20PID%20Control%20Screenshots/IVS_4_creat%20desktop%20icon.png "Desktop short cut")
-![Ready to install](/Python%20PID%20Control%20Screenshots/IVS_5_ready%20to%20install.png "Ready to install")
-4.	Finish and launch VSC
-![Installing](/Python%20PID%20Control%20Screenshots/IVS_6_Installing.png "Installing")
-5.	Done end image
-![Install finished](/Python%20PID%20Control%20Screenshots/IVS_7_VSC%20installed%20finish.jpg "Install finished")
-6. congrats you have installed  Visual Studio Code
-
-
-### Set up VSC for python
-1.	File -> New text file
-2.	Select a language
-3.	Search “Python”
-4.	Select or hit enter
-5.	In the bottom right a box should appear asking to install the “Python extension for Visual Studio Code” hit Install
-6.	After installation go back to the untitled-1 file
-7.	Next go to the bottom right of the screen and click on the “Select interpreter”
-8.	Next in the top middle click on python not installed click for instructions
-9.	It will open the Microsoft store click install and wait for it to complete
-10.	After it has been installed exit the Microsoft store and head back to VSC
-11.	again, go to the bottom right of the screen and click on the “Select interpreter”
-12.	In the top middle click on “Python 3.11.x …." 
-13.	The text that once said “Select interpreter” should now say “3.11.9 Microsoft store”
-14.	To test the installation copy or type “print(“Hello, world”)” into the unnamed python file we created in step 1
-15.	To run hit the Triangle in the top of the window to run
-16.	When prompted to save the file to a place of your choosing (ex. Downloads folder)
-17.	After which you should get the following output in the terminal on the bottom of your screen 
-18.	Congratulations you have set python up in Visual Studio Code
