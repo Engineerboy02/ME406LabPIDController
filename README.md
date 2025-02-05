@@ -1,7 +1,6 @@
 # ME406LabPIDController
 ME 406 PID lab Serial communication
 
----
 ## Install Visual studio
 Only required if you don't have Visual studio installed already
 
@@ -31,7 +30,7 @@ Only required if you don't have Visual studio installed already
 
 6. congrats you have now installed  Visual Studio Code
 
----
+
 ## Set up VSC for python
 1.	Open Visual Studio code to the main page
 
