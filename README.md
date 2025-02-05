@@ -95,7 +95,7 @@ Only required if you don't have Visual studio installed already
 
 ![Interpreter selected](/Python%20PID%20Control%20Screenshots/SUVS_8_interpreter%20selected.png "Interpreter selected")
 
-15.	To test the installation copy or type `print(“Hello, world”)` into the unnamed python file we created in step 1
+15.	To test the installation copy or type ```print(“Hello, world”)``` into the unnamed python file we created in step 1
 
 ![Test Script](/Python%20PID%20Control%20Screenshots/SUVS_9_test%20script.png "Test Script")
 
