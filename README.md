@@ -13,9 +13,9 @@ ME 406 PID lab Serial communication
 ![Install Path](/Python%20PID%20Control%20Screenshots/IVS_2_Select%20install%20Path.png "install path")
 ![Start menu folder](/Python%20PID%20Control%20Screenshots/IVS_3_Select%20start%20menue%20folder.png "Start menu folder")
 
-###### Desktop shortcut not required
+##### Desktop shortcut not required
 
-![Desktop short cut](/Python%20PID%20Control%20Screenshots/IVS_4_creat%20desktop%20icon.png "Desktop short cut")
+![Desktop short cut](/Python%20PID%20Control%20Screenshots/IVS_4_creat%20desktop%20icon.png "Desktop shortcut")
 ![Ready to install](/Python%20PID%20Control%20Screenshots/IVS_5_ready%20to%20install.png "Ready to install")
 
 4.	Finish and launch VSC
