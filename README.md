@@ -256,7 +256,7 @@ Only required if you don't have Visual studio installed already
 
 15.	Now you just need to wait till the trials have been completed
 
-![Clock GIFF](https://tenor.com/view/rickroll-gif-24538653 "Clock GIFF")
+![Clock GIFF](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmUzcGpvazBidmg5bDYwZW92c3B2MWhldW94aGxzZWttbnlqaTJ6cCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3oz8xKaR836UJOYeOc/giphy.gif "Clock GIFF")
 
 16.	Once the trials have been completed you can open the .txt file named in step 11 in excel
 
