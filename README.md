@@ -31,8 +31,9 @@ ME 406 PID lab Serial communication
 
 6. congrats you have now installed  Visual Studio Code
 
+
+### Set up VSC for python ---
 ---
-### Set up VSC for python
 1.	File -> New text file
 2.	Select a language
 3.	Search “Python”
