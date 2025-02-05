@@ -196,4 +196,53 @@ Only required if you don't have Visual studio installed already
 
 
 ## How to Use the Python Script
-![](/Python%20PID%20Control%20Screenshots "")
+
+1.	Once loaded into Visual studio Code with the required libraries you should be ready to run after a few settings that need to be checked.
+
+![](/Python%20PID%20Control%20Screenshots/FDFGH_18_VSC%20screen%20with%20terminal.png "")
+
+2.	First start by plugging in the serial interface to any USB port on your laptop does require a USB Type A port.
+
+![](/Python%20PID%20Control%20Screenshots/ "")
+
+3.	Second hit “Windows key” and search for “device manager”
+
+![](/Python%20PID%20Control%20Screenshots/HTUTPS_3_Device%20maneger%20search.png "")
+
+4.	Scroll down the list a look for “Ports(COM & LPT)” click the drop down and look for the “USB Serial Port (COMx)” this should be the required serial device before moving on take note of the COM port Number (in this example it is “COM5”) you will need to add that information to the Python Script.
+
+![](/Python%20PID%20Control%20Screenshots/HTUTPS_4_Device%20manager%20look%20for%20the%20COMport%20number.png "")
+
+5.	Now head back to Visual Studio Code and navigate to the “Main().py” file
+
+![](/Python%20PID%20Control%20Screenshots/HTUTPS_5_Heading%20Back%20to%20VSC.png "")
+
+6.	Now on Line 16 it says `port = 'COM3'  # Update to your serial port` change the “COM3” to What you found in device manager so in my example the line will now read `port = 'COM5'  # Update to your serial port`
+
+![](/Python%20PID%20Control%20Screenshots/HTUTPS_6_Updating%20the%20COM%20number%20in%20VSC.png "")
+
+7.	To run hit the Triangle  ![Run button](/Python%20PID%20Control%20Screenshots/SUVS_10_run%20button.png "Run Button")   in the top of the window to run 
+
+![Run Button Global](/Python%20PID%20Control%20Screenshots/SUVS_10b_runbutton%20location.png "Run Button Global")
+
+8.	You will then be asked a series of prompts in the terminal at the bottom of the screen the first prompt is ether the number of seconds you want to collect data for (see procedure for recommended time) when done hit enter to go to the next prompt
+
+![](/Python%20PID%20Control%20Screenshots/HTUTPS_8_VSC%20Terminal%20during%20run%20time.png "")
+
+9.	The next prompt is for the desired number of samples to be taken during to timeline (see procedure for recommended number of samples) when done hit enter to go to the next prompt
+
+![](/Python%20PID%20Control%20Screenshots/HTUTPS_9_VSC%20Terminal%20during%20run%20time%20number%20of%20samples.png "")
+
+10.	The next prompt is for the desired number of trials to be performed. The number of trials is the number of tank fills and empties (see procedure for recommended number of trials) when done hit enter to go to the next prompt
+
+![](/Python%20PID%20Control%20Screenshots/HTUTPS_10_VSC%20Terminal%20during%20run%20time%20number%20of%20trials.png "")
+
+11.	The next prompt is the Output File Name this can be whatever you want it to be and it will save to the same folder as the “Main().py” file 
+
+![](/Python%20PID%20Control%20Screenshots/HTUTPS_11_VSC%20Terminal%20during%20run%20time%20output%20file%20name.png "")
+
+12.	The Final prompt is to make sure you are ready to run the experiment when ready hit enter
+
+![](/Python%20PID%20Control%20Screenshots/HTUTPS_12_VSC%20Terminal%20during%20run%20time%20enter%20to%20start%20sampiling.png "")
+
+13.	That is how the python script runs and what things you need to change
