@@ -116,81 +116,81 @@ Only required if you don't have Visual studio installed already
 
 1.	Navigate to the GitHub Page at this [GitHub link](https://github.com/Engineerboy02/ME406LabPIDController/tree/main?tab=readme-ov-file#set-up-vsc-for-python)
 
-![](/Python%20PID%20Control%20Screenshots/FDFGH_1_navigate%20to%20the%20git%20hub%20page.png "")
+![GitHub Page](/Python%20PID%20Control%20Screenshots/FDFGH_1_navigate%20to%20the%20git%20hub%20page.png "GitHub Page")
 
 2.	Once there click on the Green “<>Code” button
 
-![](/Python%20PID%20Control%20Screenshots/FDFGH_2_click%20on%20the%20green%20Button.png "")
+![Code Button](/Python%20PID%20Control%20Screenshots/FDFGH_2_click%20on%20the%20green%20Button.png "Code Button")
 
 3.	Then click on Download zip and save it to a place you can find later
 
-![](/Python%20PID%20Control%20Screenshots/FDFGH_3_click%20on%20download%20zip.png "")
+![Download button](/Python%20PID%20Control%20Screenshots/FDFGH_3_click%20on%20download%20zip.png "Download button")
 
 4.	Next navigate to the folder you saved the zip to
 
-![](/Python%20PID%20Control%20Screenshots/FDFGH_4_navigate%20to%20the%20save%20folder.png "")
+![Zip Folder Loaction](/Python%20PID%20Control%20Screenshots/FDFGH_4_navigate%20to%20the%20save%20folder.png "Zip Folder Loaction")
 
 5.	Next right click on the zip and hit extract all 
 
-![](/Python%20PID%20Control%20Screenshots/FDFGH_5_Extract%20zip.png "")
+![Extract](/Python%20PID%20Control%20Screenshots/FDFGH_5_Extract%20zip.png "Extract")
 
 6.	Next you should be prompted for a save location select a place for it to extract to and hit extract
 
-![](/Python%20PID%20Control%20Screenshots/FDFGH_6_exctract%20location.png "")
+![Extract Location](/Python%20PID%20Control%20Screenshots/FDFGH_6_exctract%20location.png "Extract Location")
 
 7.	Next it should open a new file explorer with the extracted files
 
-![](/Python%20PID%20Control%20Screenshots/FDFGH_7_exctract%20location%20in%20FEX.png "")
+![NEWFX](/Python%20PID%20Control%20Screenshots/FDFGH_7_exctract%20location%20in%20FEX.png "NEWFX")
 
 8.	Enter the displayed folder and it should give you what is seen below
 
-![](/Python%20PID%20Control%20Screenshots/FDFGH_8A_VSC%20Home%20page.png "")
+![Displayed folder](/Python%20PID%20Control%20Screenshots/FDFGH_8A_VSC%20Home%20page.png "Displayed folder")
 
 9.	Take note of the save location by right clicking on the file tree and clicking “copy address” then head to Visual Studio Code
 
-![](/Python%20PID%20Control%20Screenshots/FDFGH_9b_save%20location.png "")
+![Save Location](/Python%20PID%20Control%20Screenshots/FDFGH_9b_save%20location.png "Save Location")
 
-![](/Python%20PID%20Control%20Screenshots/FDFGH_8_VSC%20Home%20page.png "")
+![VSC Home Screen](/Python%20PID%20Control%20Screenshots/FDFGH_8_VSC%20Home%20page.png "VSC Home Screen")
 
 10.	once in visual studio code click on “File” then “Open Folder”
 
-![](/Python%20PID%20Control%20Screenshots/FDFGH_10_VSC%20navigat%20to%20folder%20path.png "")
+![VSC open folder](/Python%20PID%20Control%20Screenshots/FDFGH_10_VSC%20navigat%20to%20folder%20path.png "VSC open folder")
 
 11.	Next navigate to the folder by pasting the file path you copied earlier and click “select folder”
 
-![](/Python%20PID%20Control%20Screenshots/FDFGH_11_VSC%20navigat%20to%20folder%20path.png "")
+![VSC open folder](/Python%20PID%20Control%20Screenshots/FDFGH_11_VSC%20navigat%20to%20folder%20path.png "VSC open folder")
 
 12.	Once opened you should see something like this
 
-![](/Python%20PID%20Control%20Screenshots/FDFGH_12_VSC%20something%20like%20this.png "")
+![VSC Opened folder](/Python%20PID%20Control%20Screenshots/FDFGH_12_VSC%20something%20like%20this.png "VSC Opened folder")
 
 13.	Click on the “main().py” on the left task bar and it should open the file in the tabs
 
-![](/Python%20PID%20Control%20Screenshots/FDFGH_13_VSC%20something%20like%20this.png "")
+![VSC Open Main.py](/Python%20PID%20Control%20Screenshots/FDFGH_13_VSC%20something%20like%20this.png "VSC Open Main.py")
 
 14.	Now you should see the file open just like below
 
-![](/Python%20PID%20Control%20Screenshots/FDFGH_14_VSC%20something%20like%20this%20opened.png "")
+![VSC Open File](/Python%20PID%20Control%20Screenshots/FDFGH_14_VSC%20something%20like%20this%20opened.png "VSC Open File")
 
 15.	Double check that your interpreter is selected before moving on
 
-![](/Python%20PID%20Control%20Screenshots/FDFGH_15_VSC%20correct%20interpreter.png "")
+![VSC Interpreter check](/Python%20PID%20Control%20Screenshots/FDFGH_15_VSC%20correct%20interpreter.png "VSC Interpreter check")
 
-16.	Next time to install the required libraries click on “Terminal”
+16.	Next time to install the required libraries click on “Terminal” in the top ribbon
 
-![](/Python%20PID%20Control%20Screenshots/FDFGH_16_VSC%20terminal.png "")
+![VSC Termianl](/Python%20PID%20Control%20Screenshots/FDFGH_16_VSC%20terminal.png "VSC Termianl")
 
 17.	Then hit “New Terminal”
 
-![](/Python%20PID%20Control%20Screenshots/FDFGH_17_VSC%20new%20terminal.png "")
+![VSC New Terminal](/Python%20PID%20Control%20Screenshots/FDFGH_17_VSC%20new%20terminal.png "VSC New Terminal")
 
 18.	In the terminal type or copy ```pip install -r requirements.txt```(paste by right clicking in the terminal) then hit enter
 
-![](/Python%20PID%20Control%20Screenshots/FDFGH_18_VSC%20screen%20with%20terminal.png "")
+![VSC PIP Reqs](/Python%20PID%20Control%20Screenshots/FDFGH_18_VSC%20screen%20with%20terminal.png "VSC PIP Reqs")
 
 19.	When it is done you should get something like the following with no errors
 
-![](/Python%20PID%20Control%20Screenshots/FDFGH_19_VSC%20pip%20install%20command.png "")
+![VSC Terminal Done](/Python%20PID%20Control%20Screenshots/FDFGH_19_VSC%20pip%20install%20command.png "VSC Terminal Done")
 
 20.	Now you are ready to go see the next section on how to set the parameters and run the script
 
