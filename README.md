@@ -61,3 +61,28 @@ ME 406 PID lab Serial communication
 
 ![File Selection](https://github.com/Engineerboy02/ME406LabPIDController/blob/main/Python%20PID%20Control%20Screenshots/(03)%20VS%20Code%20Setup.jpg "File Selection")
 
+### Install Visual studio
+1.	Download the installer from link
+2.	Once downloaded launch the installer
+3.	Selection….
+4.	Finish and launch VSC
+5.	Done end image
+### Set up VSC for python
+1.	File -> New text file
+2.	Select a language
+3.	Search “Python”
+4.	Select or hit enter
+5.	In the bottom right a box should appear asking to install the “Python extension for Visual Studio Code” hit Install
+6.	After installation go back to the untitled-1 file
+7.	Next go to the bottom right of the screen and click on the “Select interpreter”
+8.	Next in the top middle click on python not installed click for instructions
+9.	It will open the Microsoft store click install and wait for it to complete
+10.	After it has been installed exit the Microsoft store and head back to VSC
+11.	again, go to the bottom right of the screen and click on the “Select interpreter”
+12.	In the top middle click on “Python 3.11.x …." 
+13.	The text that once said “Select interpreter” should now say “3.11.9 Microsoft store”
+14.	To test the installation copy or type “print(“Hello, world”)” into the unnamed python file we created in step 1
+15.	To run hit the Triangle in the top of the window to run
+16.	When prompted to save the file to a place of your choosing (ex. Downloads folder)
+17.	After which you should get the following output in the terminal on the bottom of your screen 
+18.	Congratulations you have set python up in Visual Studio Code
