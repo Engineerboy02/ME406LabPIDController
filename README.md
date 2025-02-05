@@ -252,7 +252,7 @@ Only required if you don't have Visual studio installed already
 
 14.	After the run there will be a delay after the run to let the tank drain. The script polls data from the controller until the tank is “Empty” then stats again appending to the existing python file
 
-![](/Python%20PID%20Control%20Screenshots/FDFGH_14_VSC%20something%20like%20this%20opened.png"")
+![](/Python%20PID%20Control%20Screenshots/HTUTPS_14_VSC%20Terminal%20during%20first%20delay.png"")
 
 15.	Now you just need to wait till the trials have been completed
 
