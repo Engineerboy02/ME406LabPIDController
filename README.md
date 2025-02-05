@@ -32,10 +32,13 @@ Only required if you don't have Visual studio installed already
 6. congrats you have now installed  Visual Studio Code
 
 
-## Set up VSC for python
-see below for skiping steps
-For installing the extension cont. below 
+## Set up Visual Studio Code for python
+See below for skiping steps
+
+For installing the extension cont. below
+
 For just the interpreter start at step 8
+
 If you have already installed the Python extension and interpreter make a new .py fial and head to step 15 and verify you get an output.
 
 1.	Open Visual Studio code to the main page
