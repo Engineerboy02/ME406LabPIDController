@@ -67,7 +67,7 @@ ME 406 PID lab Serial communication
 
 9.	Next in the top middle click on "python not installed click for instructions"
 
-![Click for instructions](/Python%20PID%20Control%20Screenshots/SUVS_6_python%20click%20for%20instructions.png "Click for instructions")
+![Click for instructions](/Python%20PID%20Control%20Screenshots/SUVS_6_python%20click%20for%20instructions.jpg "Click for instructions")
 
 10.	It will open the Microsoft store click "install" and wait for it to complete
 
