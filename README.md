@@ -114,7 +114,7 @@ Only required if you don't have Visual studio installed already
 
 ## File download from GitHub
 
-1.	Navigate to the GitHub Page at this LINK
+1.	Navigate to the GitHub Page at this [GitHub link](https://github.com/Engineerboy02/ME406LabPIDController/tree/main?tab=readme-ov-file#set-up-vsc-for-python)
 
 ![](/Python%20PID%20Control%20Screenshots/FDFGH_1_navigate%20to%20the%20git%20hub%20page.png "")
 
@@ -144,13 +144,15 @@ Only required if you don't have Visual studio installed already
 
 8.	Enter the displayed folder and it should give you what is seen below
 
-![](/Python%20PID%20Control%20Screenshots/FDFGH_8_VSC%20Home%20page.png "")
+![](/Python%20PID%20Control%20Screenshots/FDFGH_8A_VSC%20Home%20page.png"")
 
 9.	Take note of the save location by right clicking on the file tree and clicking “copy address” then head to Visual Studio Code
 
 ![](/Python%20PID%20Control%20Screenshots/FDFGH_9b_save%20location.png "")
 
-10.	Next click on “File” then “Open Folder”
+![](/Python%20PID%20Control%20Screenshots/FDFGH_8_VSC%20Home%20page.png "")
+
+10.	once in visual studio code click on “File” then “Open Folder”
 
 ![](/Python%20PID%20Control%20Screenshots/FDFGH_10_VSC%20navigat%20to%20folder%20path.png "")
 
