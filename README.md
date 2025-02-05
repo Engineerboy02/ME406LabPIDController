@@ -3,20 +3,30 @@ ME 406 PID lab Serial communication
 
 ### Install Visual studio
 1.	Download the installer [Visual Studio Code Download link](https://code.visualstudio.com/Download)
+
 ![Download VSC](/Python%20PID%20Control%20Screenshots/IVS_0_Download%20VSC.jpg "Download VSC")
+
 2.	Once downloaded launch the installer
 3.	Once launched it will ask for setting see screen shots for the info
+
 ![Licence Agreement](/Python%20PID%20Control%20Screenshots/IVS_1_LicenceAgreemanet.png "Licence Agreement")
 ![Install Path](/Python%20PID%20Control%20Screenshots/IVS_2_Select%20install%20Path.png "install path")
 ![Start menu folder](/Python%20PID%20Control%20Screenshots/IVS_3_Select%20start%20menue%20folder.png "Start menu folder")
+
 ###### Desktop shortcut not required
+
 ![Desktop short cut](/Python%20PID%20Control%20Screenshots/IVS_4_creat%20desktop%20icon.png "Desktop short cut")
 ![Ready to install](/Python%20PID%20Control%20Screenshots/IVS_5_ready%20to%20install.png "Ready to install")
+
 4.	Finish and launch VSC
+
 ![Installing](/Python%20PID%20Control%20Screenshots/IVS_6_Installing.png "Installing")
+
 5.	Done end image
+
 ![Install finished](/Python%20PID%20Control%20Screenshots/IVS_7_VSC%20installed%20finish.jpg "Install finished")
-6. congrats you have installed  Visual Studio Code
+
+6. congrats you have now installed  Visual Studio Code
 
 
 ### Set up VSC for python
