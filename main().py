@@ -2,7 +2,7 @@
 """
 Created on Tue Jan 28 22:18:43 2025
 
-@author: Engin
+@author: John Lindquist
 """
 
 import serial
