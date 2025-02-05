@@ -223,7 +223,7 @@ Only required if you don't have Visual studio installed already
 
 7.	To run hit the Triangle  ![Run button](/Python%20PID%20Control%20Screenshots/SUVS_10_run%20button.png "Run Button")   in the top of the window to run 
 
-![Run Button Global](/Python%20PID%20Control%20Screenshots/SUVS_10b_runbutton%20location.png "Run Button Global")
+![Run Button Global](/Python%20PID%20Control%20Screenshots/HTUTPS_7_Run%20Button%20location%20in%20VSC.png "Run Button Global")
 
 8.	You will then be asked a series of prompts in the terminal at the bottom of the screen the first prompt is ether the number of seconds you want to collect data for (see procedure for recommended time) when done hit enter to go to the next prompt
 
