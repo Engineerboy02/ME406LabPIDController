@@ -1,7 +1,7 @@
 # ME406LabPIDController
 ME 406 PID lab Serial communication
 
-This guide it for Windows 10 and 11 if you have another oerating system you will need to make special changes to the instalation and setup
+This guide it for Windows 10 and 11 if you have another operating system you will need to make special changes to the installation and setup
 
 ## Install Visual studio
 Only required if you don't have Visual studio installed already
@@ -30,14 +30,11 @@ Only required if you don't have Visual studio installed already
 
 ![Install finished](/Python%20PID%20Control%20Screenshots/IVS_7_VSC%20installed%20finish.jpg "Install finished")
 
-6. congrats you have now installed  Visual Studio Code
+6. Congrats you have now installed  Visual Studio Code
 
 
 ## Set up Visual Studio Code for python
-   See below for skiping steps  
-   For installing the extension cont. below  
-   For just the interpreter start at step 8  
-   If you have already installed the Python extension and interpreter make a new .py file and head to step 15 and verify you get an output.
+   The interpreter and the Python extension must be installed in addition to the Visual Studio program. If you have previously installed the interpreter prior to this lab continue to step 8 to install the Python extension.  If both have been previously installed continue to step 15 with a new .py file opened. In the event neither the interpreter and Python extension have not been installed follow the steps below.
 
 
 1.	Open Visual Studio code to the main page
@@ -60,7 +57,7 @@ Only required if you don't have Visual studio installed already
 
 ![extension install](/Python%20PID%20Control%20Screenshots/SUVS_3_install%20python%20extension.png "extension install")
 
-6.	After hitting enter you should be brought to a page like below wait for it to insall before moving on
+6.	After hitting enter you should be brought to a page like below click install and wait for it to insall before moving on
 
 ![Extension install page](/Python%20PID%20Control%20Screenshots/SUVS_4_click%20to%20the%20untitiled%20tab.png "Extension install page")
 
@@ -185,9 +182,14 @@ Only required if you don't have Visual studio installed already
 
 ![VSC New Terminal](/Python%20PID%20Control%20Screenshots/FDFGH_17_VSC%20new%20terminal.png "VSC New Terminal")
 
-18.	In the terminal type or copy ```pip install -r requirements.txt```(paste by right clicking in the terminal) then hit enter
+18.	In the terminal type or copy ```pip install -r requirements.txt```(paste by right clicking in the terminal) and hitting enter
 
 ![VSC PIP Reqs](/Python%20PID%20Control%20Screenshots/FDFGH_18_VSC%20screen%20with%20terminal.png "VSC PIP Reqs")
+
+ If the command above creates a file not found error replace the "requirements.txt" with the relative path of the file by right clicking "requirements.txt" file in the left menu and selecting "Copy Relative Path" then past into the terminal replacing the "Requirements.txt" and hit enter and the requirements should install.
+
+ ![VSC PIP Reqs solution](/Python%20PID%20Control%20Screenshots/FDFGH_18a_VSC%20pip%20install%20command%20relative%20path.png "VSC PIP Reqs solution")
+
 
 19.	When it is done you should get something like the following with no errors
 
@@ -210,7 +212,7 @@ Only required if you don't have Visual studio installed already
 
 ![Device Manager](/Python%20PID%20Control%20Screenshots/HTUTPS_3_Device%20maneger%20search.png "Device Manager")
 
-4.	Scroll down the list a look for “Ports(COM & LPT)” click the drop down and look for the “USB Serial Port (COMx)” this should be the required serial device before moving on take note of the COM port Number (in this example it is “COM5”) you will need to add that information to the Python Script.
+4.	Scroll down the list a look for “Ports(COM & LPT)” click the drop down and look for the “USB Serial Port (COMx)” this should be the required serial device before moving on take note of the COM port number (in this example it is “COM5”) you will need to add that information to the Python Script.
 
 ![COM Port Number](/Python%20PID%20Control%20Screenshots/HTUTPS_4_Device%20manager%20look%20for%20the%20COMport%20number.png "COM Port Number")
 
@@ -218,7 +220,7 @@ Only required if you don't have Visual studio installed already
 
 ![Back To VSC main().py](/Python%20PID%20Control%20Screenshots/HTUTPS_5_Heading%20Back%20to%20VSC.png "Back To VSC main().py")
 
-6.	Now on Line 16 it says `port = 'COM3'  # Update to your serial port` change the “COM3” to What you found in device manager so in my example the line will now read `port = 'COM5'  # Update to your serial port`
+6.	Now on Line 16 it says `port = 'COM3'  # Update to your serial port` change the “COM3” to what you found in device manager so in my example the line will now read `port = 'COM5'  # Update to your serial port`
 
 ![COM Port Number in VSC](/Python%20PID%20Control%20Screenshots/HTUTPS_6_Updating%20the%20COM%20number%20in%20VSC.png "COM Port Number in VSC")
 
@@ -258,11 +260,11 @@ Only required if you don't have Visual studio installed already
 
 ![Clock GIFF](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmUzcGpvazBidmg5bDYwZW92c3B2MWhldW94aGxzZWttbnlqaTJ6cCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3oz8xKaR836UJOYeOc/giphy.gif "Clock GIFF")
 
-16.	Once the trials have been completed you can open the .txt file named in step 11 in excel
+16.	Once the trials have been completed you can open the .txt file named in step 11 in Excel
 
 ![Compleated Text File](/Python%20PID%20Control%20Screenshots/HTUTPS_16_VSC%20Terminal%20after%20completion.png "Compleated Text File")
 
-17.	You will need to delimited by **SPACE** in order to get the data organized
+17.	You will need to select "delimited" by **SPACE** in order to get the data organized
 
 ![](/Python%20PID%20Control%20Screenshots "")
 
