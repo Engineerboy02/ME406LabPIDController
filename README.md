@@ -186,7 +186,8 @@ Only required if you don't have Visual studio installed already
 
 ![VSC PIP Reqs](/Python%20PID%20Control%20Screenshots/FDFGH_18_VSC%20screen%20with%20terminal.png "VSC PIP Reqs")
 
- If the command above creates a file not found error replace the "requirements.txt" with the relative path of the file by right clicking "requirements.txt" file in the left menu and selecting "Copy Relative Path" then past into the terminal replacing the "Requirements.txt" and hit enter and the requirements should install.
+ If the command above creates a file not found error replace the "requirements.txt" with the relative path of the file by right clicking "requirements.txt" file in the left menu and selecting "Copy Relative Path" then past into the terminal replacing the "Requirements.txt" and hit enter and the requirements should install.  
+ New Commad Looks like ```pip install -r COPIEDFilePath/requirements.txt```
 
  ![VSC PIP Reqs solution](/Python%20PID%20Control%20Screenshots/FDFGH_18a_VSC%20pip%20install%20command%20relative%20path.png "VSC PIP Reqs solution")
 
