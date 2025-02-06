@@ -265,8 +265,10 @@ Only required if you don't have Visual Studio Code(VSC) installed already.
 
 ![Compleated Text File](/Python%20PID%20Control%20Screenshots/HTUTPS_16_VSC%20Terminal%20after%20completion.png "Compleated Text File")
 
-17.	You will need to select "delimited" by **SPACE** in order to get the data organized
+17.	That is how the python script runs and how the script will exicute
+
+## Importing the data to Excel
+
+1.	You will need to select "delimited" by **SPACE** in order to get the data organized
 
 ![](/Python%20PID%20Control%20Screenshots "")
-
-18.	That is how the python script runs and what things you need to change to get your data
