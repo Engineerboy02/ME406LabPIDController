@@ -269,6 +269,40 @@ Only required if you don't have Visual Studio Code(VSC) installed already.
 
 ## Importing the data to Excel
 
-1.	You will need to select "delimited" by **SPACE** in order to get the data organized
+1.	Now you might be wondering about how to view the data well fear not this is the section for you
+
+
+2.	First open Excel and get to the home page like below
+
+![Excel Home](/Python%20PID%20Control%20Screenshots/EFC_2_Excel%20Home%20page.png "Excel Home")
+
+3.	Next hit “Open” then browse and navigate to the save folder
+
+![Excel Open Page](/Python%20PID%20Control%20Screenshots/EFC_3_Excel%20open%20page.png "Excel Open Page")
+
+4.	In this folder you won’t see anything
+
+![Blank Folder](/Python%20PID%20Control%20Screenshots/EFC_4_Blank%20File%20explorer.png "Blank Folder")
+
+5.	Next change the file type to “All files” in the bottom right corner
+
+![All Files](/Python%20PID%20Control%20Screenshots/EFC_5_filled%20File%20explorer.png "All Files")
+
+6.	Next select the run you want to open and click “open” in my case I am opening the “Example.txt”
+
+![Selected File](/Python%20PID%20Control%20Screenshots/EFC_6_selected%20File%20explorer.png "Selected File")
+
+7.	Next you will be prompted by the Text import Wizard. In the first window you want to select “Delimited” and “Next”
+
+![Text Import Wizard 1](/Python%20PID%20Control%20Screenshots/EFC_7_Text%20import%20window.png "Text Import Wizard 1")
+
+8.	Next Uncheck “Tab” and Check “Space” and hit “Finish”
+
+![Text Import Wizard 2](/Python%20PID%20Control%20Screenshots/EFC_8_Text%20import%20finish%20window.png "Text Import Wizard 2")
+
+9.	Congrats you have now imported the Text file to Excel
+
+![Data Page](/Python%20PID%20Control%20Screenshots/EFC_9_imported%20data.png "Data Page")
+
 
 ![](/Python%20PID%20Control%20Screenshots "")
