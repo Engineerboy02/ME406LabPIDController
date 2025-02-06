@@ -269,7 +269,7 @@ Only required if you don't have Visual Studio Code(VSC) installed already.
 
 ## Importing the data to Excel
 
-1.	Now you might be wondering about how to view the data well fear not this is the section for you
+1.	Now you might be wondering about how to view the data well, fear not this is the section for you
 
 
 2.	First open Excel and get to the home page like below
