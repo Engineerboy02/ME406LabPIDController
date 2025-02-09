@@ -1,0 +1,13 @@
+Generate Requirements/ all the packages that are used	
+	pip freeze > requirements.txt
+Install the Packages from the Text File
+	pip install -r requirements.txt
+
+
+To make an EXE file
+	install the exe creator 
+		pip install pyinstaller
+
+	Actually create the exe file
+		python -m PyInstaller mainV1.1.py --onefile
+
