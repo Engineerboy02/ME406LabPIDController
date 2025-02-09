@@ -60,7 +60,7 @@ This guide is for Windows 10 and 11 if you have another operating system you wil
 14.	After the run there will be a delay after the run to let the tank drain. The script polls data from the controller until the tank is “Empty” then stats again appending to the existing python file.
 
 ![Tank Drain Delay](/Python%20PID%20Control%20Screenshots/HTUTPS_14_VSC%20Terminal%20during%20first%20delay.png "Tank Drain Delay")
-
+![alt text](image-1.png)
 15.	Now you just need to wait till the trials have been completed.
 
 ![Clock GIFF](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmUzcGpvazBidmg5bDYwZW92c3B2MWhldW94aGxzZWttbnlqaTJ6cCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3oz8xKaR836UJOYeOc/giphy.gif "Clock GIFF")
@@ -68,8 +68,8 @@ This guide is for Windows 10 and 11 if you have another operating system you wil
 16.	Once the trials have been completed you can open the .txt file named in step 11 in Excel.
 
 ![Compleated Text File](/Python%20PID%20Control%20Screenshots/HTUTPS_16_VSC%20Terminal%20after%20completion.png "Compleated Text File")
-
-17.	That is how the python script runs and how the script will exicute
+![alt text](image.png)
+17.	That is how the python script runs and how the script will execute
 
 
 ## Importing the data to Excel
