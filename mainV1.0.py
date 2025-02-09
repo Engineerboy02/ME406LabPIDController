@@ -28,18 +28,15 @@ def serial_ports():
 #------------------------------------------------------------------------------
 #------------------------------------------------------------------------------
 # Configure serial port settings for serial adapter
-port = serial_ports()  # no need to update IF the com port isn't found enter it manualy "COMx" and replace x with the number
+port = serial_ports()  #IF the com port isn't found enter it manualy pasting this "COMx" and replace x with the number of the com port
 baudrate = 9600  # Adjust this if needed
 timeout = .1   # Timeout for serial read/write operations
 serRS232 = serial.Serial(port, baudrate, timeout=timeout, stopbits=serial.STOPBITS_ONE, bytesize=serial.EIGHTBITS)
 
-if (port == "None"):
+if not port:
+    print("USB COM Port NOT found. Double check connections.")
     sys.exit()
-    print("NO USB COM Device Detected")
-    error = input()
     
-else:
-    print(port)   
 #------------------------------------------------------------------------------
 #------------------------------------------------------------------------------
 timebetweenruns = 60 #time delay to let tank drain fully in sec
