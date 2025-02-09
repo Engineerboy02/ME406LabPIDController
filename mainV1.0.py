@@ -6,26 +6,40 @@ Created on Tue Jan 28 22:18:43 2025
 """
 
 import serial
+import serial.tools.list_ports
 import time
 from datetime import datetime
 import pytz
+import sys
 
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+def serial_ports():
+    # produce a list of all serial ports. The list contains a tuple with the port number, 
+    # description and hardware address
+    #
+    ports = list(serial.tools.list_ports.comports())  
+
+    # return the port if 'USB' is in the description 
+    for port_no, description, address in ports:
+        if 'USB Serial Port' in description:
+            return port_no
+        
 #------------------------------------------------------------------------------
 #------------------------------------------------------------------------------
 # Configure serial port settings for serial adapter
-port = 'COM3'  # Update to your serial port
+port = serial_ports()  # no need to update IF the com port isn't found enter it manualy "COMx" and replace x with the number
 baudrate = 9600  # Adjust this if needed
 timeout = .1   # Timeout for serial read/write operations
 serRS232 = serial.Serial(port, baudrate, timeout=timeout, stopbits=serial.STOPBITS_ONE, bytesize=serial.EIGHTBITS)
-print(serRS232)
-#------------------------------------------------------------------------------
-#------------------------------------------------------------------------------
-# Configure serial port settings for arduino
-#port = 'COM6'  # Update to your serial port
-#baudrate = 115300 # Adjust this if needed
-#timeout = .1   # Timeout for serial read/write operations
-#serRelay = serial.Serial(port, baudrate, timeout=timeout)
 
+if (port == "None"):
+    sys.exit()
+    print("NO USB COM Device Detected")
+    error = input()
+    
+else:
+    print(port)   
 #------------------------------------------------------------------------------
 #------------------------------------------------------------------------------
 timebetweenruns = 60 #time delay to let tank drain fully in sec
@@ -68,6 +82,7 @@ def inputs():
     return(inputvalues) #returns the Input array to be used in other functions
 #------------------------------------------------------------------------------
 #------------------------------------------------------------------------------
+'''
 def serialWrite(inputValues): #Sends the PID Values CURRENTLY DOSEN'T WORK commands are wrong
     
     #------------------------------------------------------------------------
@@ -86,6 +101,7 @@ def serialWrite(inputValues): #Sends the PID Values CURRENTLY DOSEN'T WORK comma
     time.sleep(0.1)  # Allow some time for the command to be processed
     
     return
+    '''
 #------------------------------------------------------------------------------
 #------------------------------------------------------------------------------
 def serialGetParmaters(inputValues):
@@ -161,13 +177,6 @@ def serialGetParmaters(inputValues):
 
 #------------------------------------------------------------------------------
 #------------------------------------------------------------------------------
-#def relaytrigger(value): #Function used to run relay module
-
-    #relay = f'{value}'
-    #serRelay.write(relay.encode())
-
-#------------------------------------------------------------------------------
-#------------------------------------------------------------------------------
 def omegaResponse(input): #Used to send and receive the serial commands to the PID contoller
     command = [f'*X04\r\n', f'*W01400000\r\n', f'*W01400320\r\n', f'*D03\r\n', f'*E03\r\n']
     #commandRead = f'*X04\r\n' #Read Command
@@ -182,8 +191,9 @@ def omegaResponse(input): #Used to send and receive the serial commands to the P
     #print(SetResponse)
 
     return(CommandResponse)
+
 #------------------------------------------------------------------------------
-#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------  
 main() #calls the main function
 #------------------------------------------------------------------------------
 #------------------------------------------------------------------------------
