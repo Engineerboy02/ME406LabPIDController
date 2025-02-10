@@ -39,7 +39,7 @@ def serialcreate():
             serialcreate()
 
         elif (Manual == 2):
-            comport = str(int(input("Iplese enter the COM Number with out 'COM' (Example: Enter '5' for COM5): ")))
+            comport = str(int(input("please enter the COM Number with out 'COM' (Example: Enter '5' for COM5): ")))
             port = "COM"+comport
 
         else:
@@ -190,8 +190,16 @@ def serialGetParmaters(inputValues, serRS232):
         
         print()
         print("Current run compleated and saved to file") #User feed back that the Run was compleated and saved to file
-        print("Exiting script and Closing")
-        time.sleep(5)
+        whatNow = int(input("Hit 1 to run again, or Enter to exit"))
+
+        if (whatNow == 1):
+            print("Script Running again")
+            main()
+            
+        else:
+            print("Exiting script and Closing")
+            time.sleep(5)
+            sys.exit()
 
 #------------------------------------------------------------------------------
 #------------------------------------------------------------------------------
