@@ -55,7 +55,7 @@ This guide is for Windows 10 and 11 if you have another operating system you wil
 
 13.	Once the trials have been completed you can open the .txt file named in step 11 in Excel.
 
-![Compleated Text File](/Python%20PID%20Control%20Screenshots/HTUTPS/HTUTPS_13_VSC%20Terminal%20after%20completion.png"Compleated Text File")
+![Compleated Text File](/Python%20PID%20Control%20Screenshots/HTUTPS/HTUTPS_13_VSC%20Terminal%20after%20completion.png "Compleated Text File")
 
 14.	That is how the python script runs and how the script will execute
 
@@ -67,35 +67,35 @@ This guide is for Windows 10 and 11 if you have another operating system you wil
 
 2.	First open Excel and get to the home page like below
 
-![Excel Home](/Python%20PID%20Control%20Screenshots/EFC_2_Excel%20Home%20page.png "Excel Home")
+![Excel Home](/Python%20PID%20Control%20Screenshots/Excel/EFC_2_Excel%20Home%20page.png "Excel Home")
 
 3.	Next hit “Open” then browse and navigate to the save folder
 
-![Excel Open Page](/Python%20PID%20Control%20Screenshots/EFC_3_Excel%20open%20page.png "Excel Open Page")
+![Excel Open Page](/Python%20PID%20Control%20Screenshots/Excel/EFC_3_Excel%20open%20page.png "Excel Open Page")
 
 4.	In this folder you won’t see anything
 
-![Blank Folder](/Python%20PID%20Control%20Screenshots/EFC_4_Blank%20File%20explorer.png "Blank Folder")
+![Blank Folder](/Python%20PID%20Control%20Screenshots/Excel/EFC_4_Blank%20File%20explorer.png "Blank Folder")
 
 5.	Next change the file type to “All files” in the bottom right corner
 
-![All Files](/Python%20PID%20Control%20Screenshots/EFC_5_filled%20File%20explorer.png "All Files")
+![All Files](/Python%20PID%20Control%20Screenshots/Excel/EFC_5_filled%20File%20explorer.png "All Files")
 
 6.	Next select the run you want to open and click “open” in my case I am opening the “Example.txt”
 
-![Selected File](/Python%20PID%20Control%20Screenshots/EFC_6_selected%20File%20explorer.png "Selected File")
+![Selected File](/Python%20PID%20Control%20Screenshots/Excel/EFC_6_selected%20File%20explorer.png "Selected File")
 
 7.	Next you will be prompted by the Text import Wizard. In the first window you want to select “Delimited” and “Next”
 
-![Text Import Wizard 1](/Python%20PID%20Control%20Screenshots/EFC_7_Text%20import%20window.png "Text Import Wizard 1")
+![Text Import Wizard 1](/Python%20PID%20Control%20Screenshots/Excel/EFC_7_Text%20import%20window.png "Text Import Wizard 1")
 
 8.	Next Uncheck “Tab” and Check “Space” and hit “Finish”
 
-![Text Import Wizard 2](/Python%20PID%20Control%20Screenshots/EFC_8_Text%20import%20finish%20window.png "Text Import Wizard 2")
+![Text Import Wizard 2](/Python%20PID%20Control%20Screenshots/Excel/EFC_8_Text%20import%20finish%20window.png "Text Import Wizard 2")
 
 9.	Congrats you have now imported the Text file to Excel
 
-![Data Page](/Python%20PID%20Control%20Screenshots/EFC_9_imported%20data.png "Data Page")
+![Data Page](/Python%20PID%20Control%20Screenshots/Excel/EFC_9_imported%20data.png "Data Page")
 
 
 ![](/Python%20PID%20Control%20Screenshots "")
@@ -105,8 +105,8 @@ This guide is for Windows 10 and 11 if you have another operating system you wil
 
 1.	First hit “Windows key” and search for “device manager”.
 
-![Device Manager](/Python%20PID%20Control%20Screenshots/COM_3_Device%20maneger%20search.png "Device Manager")
+![Device Manager](/Python%20PID%20Control%20Screenshots/COM/COM_3_Device%20maneger%20search.png "Device Manager")
 
 2.	next scroll down the list a look for “Ports(COM & LPT)” click the drop down and look for the “USB Serial Port (COMx)” this should be the required serial device before moving on take note of the COM port number (in this example it is “COM5”) you will need to add that information to the Python Script.
 
-![COM Port Number](/Python%20PID%20Control%20Screenshots/COM_4_Device%20manager%20look%20for%20the%20COMport%20number.png "COM Port Number")
+![COM Port Number](/Python%20PID%20Control%20Screenshots/COM/COM_4_Device%20manager%20look%20for%20the%20COMport%20number.png "COM Port Number")
