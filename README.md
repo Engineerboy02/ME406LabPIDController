@@ -7,15 +7,15 @@ This guide is for Windows 10 and 11 if you have another operating system you wil
 
 1.	Head to the GitHub and Click on the “mainV1.1.exe”
 
-![GitHub download Page](/Python%20PID%20Control%20Screenshots/HTUTPS_1_download%20the%20exe%20part%201.png "GitHub download Page")
+![GitHub download Page](/Python%20PID%20Control%20Screenshots/HTUTPS/HTUTPS_1_download%20the%20exe%20part%201.png "GitHub download Page")
 
 2.	Next download the “mainV1.1.exe” file and save to what ever folder you would like.
 
-![GitHub exe download](/Python%20PID%20Control%20Screenshots/HTUTPS_1_download%20the%20exe%20part%201.png "GitHub exe download")
+![GitHub exe download](/Python%20PID%20Control%20Screenshots/HTUTPS/HTUTPS_2_download%20the%20exe%20part%202.png "GitHub exe download")
 
 3.	Next start by plugging in the serial interface to any USB port on your laptop the interface does require a USB Type A port.
 
-![Serial Interface](/Python%20PID%20Control%20Screenshots/HTUTPS_3_Serial%20Interface.png "Serial Interface")
+![Serial Interface](/Python%20PID%20Control%20Screenshots/HTUTPS/HTUTPS_3_Serial%20Interface.png "Serial Interface")
 
 4.	After plugging the interface in launch, the exe by double clicking on it after a small delay you should be prompted with a window that says, “Serial adapter selected and ready to run Please enter the end time in sec:” If you get this message move to step 5 if not head to trouble shooting the serial interface section of this document [(LINK to Manual COM port selection)](https://github.com/Engineerboy02/ME406LabPIDController/tree/main?tab=readme-ov-file#finding-the-com-port-manualy)
 
