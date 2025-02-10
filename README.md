@@ -19,35 +19,35 @@ This guide is for Windows 10 and 11 if you have another operating system you wil
 
 4.	After plugging the interface in launch, the exe by double clicking on it after a small delay you should be prompted with a window that says, “Serial adapter selected and ready to run Please enter the end time in sec:” If you get this message move to step 5 if not head to trouble shooting the serial interface section of this document LINK
 
-![exe serial interface sucess](/Python%20PID%20Control%20Screenshots/HTUTPS_4_exe%20serial%20adapter%20sucess.png "exe serial interface sucess")
+![exe serial interface sucess](/Python%20PID%20Control%20Screenshots/HTUTPS/HTUTPS_4_exe%20serial%20adapter%20sucess.png "exe serial interface sucess")
 
 5.	You will then be asked a series of prompts in the terminal. The first prompt is the number of seconds you want to collect data for (see procedure for recommended time) when done hit “Enter” to go to the next prompt.
 
-![Run Time](/Python%20PID%20Control%20Screenshots/HTUTPS_8_VSC%20Terminal%20during%20run%20time.png "Run Time")
+![Run Time](/Python%20PID%20Control%20Screenshots/HTUTPS/HTUTPS_5_end%20time.png "Run Time")
 
 6.	The next prompt is for the desired number of samples to be taken during the timeline (see procedure for recommended number of samples) when done hit “Enter” to go to the next prompt.
 
-![Number of samples](/Python%20PID%20Control%20Screenshots/HTUTPS_9_VSC%20Terminal%20during%20run%20time%20number%20of%20samples.png "Number of samples")
+![Number of samples](/Python%20PID%20Control%20Screenshots/HTUTPS/HTUTPS_6_number%20of%20samples.png "Number of samples")
 
 7.	The next prompt is for the desired number of trials to be performed. The number of trials is the number of tank fills and empties (see procedure for recommended number of trials) when done hit “Enter” to go to the next prompt.
 
-![Number of trials](/Python%20PID%20Control%20Screenshots/HTUTPS_10_VSC%20Terminal%20during%20run%20time%20number%20of%20trials.png "Number of trials")
+![Number of trials](/Python%20PID%20Control%20Screenshots/HTUTPS/HTUTPS_7_number%20of%20trials.png"Number of trials")
 
 8.	The next prompt is the Output File Name this can be whatever you want it to be, and it will save to the same folder as the “MainV1.1.exe” file.
 
-![File Name](/Python%20PID%20Control%20Screenshots/HTUTPS_11_VSC%20Terminal%20during%20run%20time%20output%20file%20name.png "File Name")
+![File Name](/Python%20PID%20Control%20Screenshots/HTUTPS/HTUTPS_8_filename.png "File Name")
 
 9.	The Final prompt is to make sure you are ready to run the experiment when ready hit “Enter”.
 
-![Ready to Run](/Python%20PID%20Control%20Screenshots/HTUTPS_12_VSC%20Terminal%20during%20run%20time%20enter%20to%20start%20sampiling.png "Ready to Run")
+![Ready to Run](/Python%20PID%20Control%20Screenshots/HTUTPS/HTUTPS_9_ready%20to%20run%20confirmation.png "Ready to Run")
 
 10.	Once you hit run you should get the output below and the number will slowly count up to the final number of samples.
 
-![Initial Run](/Python%20PID%20Control%20Screenshots/HTUTPS_13_VSC%20Terminal%20during%20run%20time%20initial%20output.png "Initial Run")
+![Initial Run](/Python%20PID%20Control%20Screenshots/HTUTPS/HTUTPS_10_Run%20Sampiling.png "Initial Run")
 
 11.	After the run there will be a delay after the run to let the tank drain. The script polls data from the controller until the tank is “Empty” then stats again appending to the existing python file.
 
-![Tank Drain Delay](/Python%20PID%20Control%20Screenshots/HTUTPS_14_VSC%20Terminal%20during%20first%20delay.png "Tank Drain Delay")
+![Tank Drain Delay](/Python%20PID%20Control%20Screenshots/HTUTPS/HTUTPS_11_VSC%20Terminal%20during%20run%20time%20output%20file%20name.png "Tank Drain Delay")
 
 12.	Now you just need to wait till the trials have been completed.
 
