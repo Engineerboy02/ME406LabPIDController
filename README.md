@@ -19,7 +19,7 @@ This guide is for Windows 10 and 11 if you have another operating system you wil
 
 4.	After plugging the interface in launch, the exe by double clicking on it after a small delay you should be prompted with a window that says, “Serial adapter selected and ready to run Please enter the end time in sec:” If you get this message move to step 5 if not head to trouble shooting the serial interface section of this document LINK
 
-![Serial Interface](/Python%20PID%20Control%20Screenshots/HTUTPS_2_Serial%20Interface.png "Serial Interface")
+![exe serial interface sucess](/Python%20PID%20Control%20Screenshots/HTUTPS_4_exe%20serial%20adapter%20sucess.png "exe serial interface sucess")
 
 5.	You will then be asked a series of prompts in the terminal. The first prompt is the number of seconds you want to collect data for (see procedure for recommended time) when done hit “Enter” to go to the next prompt.
 
@@ -105,8 +105,8 @@ This guide is for Windows 10 and 11 if you have another operating system you wil
 
 1.	First hit “Windows key” and search for “device manager”.
 
-![Device Manager](/Python%20PID%20Control%20Screenshots/HTUTPS_3_Device%20maneger%20search.png "Device Manager")
+![Device Manager](/Python%20PID%20Control%20Screenshots/COM_3_Device%20maneger%20search.png "Device Manager")
 
 2.	next scroll down the list a look for “Ports(COM & LPT)” click the drop down and look for the “USB Serial Port (COMx)” this should be the required serial device before moving on take note of the COM port number (in this example it is “COM5”) you will need to add that information to the Python Script.
 
-![COM Port Number](/Python%20PID%20Control%20Screenshots/HTUTPS_4_Device%20manager%20look%20for%20the%20COMport%20number.png "COM Port Number")
+![COM Port Number](/Python%20PID%20Control%20Screenshots/COM_4_Device%20manager%20look%20for%20the%20COMport%20number.png "COM Port Number")
