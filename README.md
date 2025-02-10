@@ -7,37 +7,37 @@ This guide is for Windows 10 and 11 if you have another operating system you wil
 
 1.	Head to the GitHub and Click on the “mainV1.1.exe”
 
-![GitHub Main page](/Python%20PID%20Control%20Screenshots/HTUTPS_1_download%20the%20exe%20part%201.png "GitHub Main page")
+![GitHub download Page](/Python%20PID%20Control%20Screenshots/HTUTPS_1_download%20the%20exe%20part%201.png "GitHub download Page")
 
 2.	Next download the “mainV1.1.exe” file and save to what ever folder you would like.
 
-![exe download](/Python%20PID%20Control%20Screenshots/HTUTPS_2_download%20the%20exe%20part%202.png "exe download")
+![GitHub exe download](/Python%20PID%20Control%20Screenshots/HTUTPS_1_download%20the%20exe%20part%201.png "GitHub exe download")
 
 3.	Next start by plugging in the serial interface to any USB port on your laptop the interface does require a USB Type A port.
 
+![Serial Interface](/Python%20PID%20Control%20Screenshots/HTUTPS_3_Serial%20Interface.png "Serial Interface")
+
+4.	After plugging the interface in launch, the exe by double clicking on it after a small delay you should be prompted with a window that says, “Serial adapter selected and ready to run Please enter the end time in sec:” If you get this message move to step 5 if not head to trouble shooting the serial interface section of this document LINK
+
 ![Serial Interface](/Python%20PID%20Control%20Screenshots/HTUTPS_2_Serial%20Interface.png "Serial Interface")
 
-4.	After plugging the interface in launch the exe by double clicking on it after a small delay you should be prompted with a window that says “Serial adapter selected and ready to run Please enter the end time in sec:” If you get this message move to step 5 if not head to trouble shooting the serial interface section of this document LINK
-
-![Serial Interface](/Python%20PID%20Control%20Screenshots/HTUTPS_2_Serial%20Interface.png "Serial Interface")
-
-5.	You will then be asked a series of prompts in the terminal at the bottom of the screen the first prompt is ether the number of seconds you want to collect data for (see procedure for recommended time) when done hit enter to go to the next prompt.
+5.	You will then be asked a series of prompts in the terminal. The first prompt is the number of seconds you want to collect data for (see procedure for recommended time) when done hit “Enter” to go to the next prompt.
 
 ![Run Time](/Python%20PID%20Control%20Screenshots/HTUTPS_8_VSC%20Terminal%20during%20run%20time.png "Run Time")
 
-6.	The next prompt is for the desired number of samples to be taken during to timeline (see procedure for recommended number of samples) when done hit enter to go to the next prompt.
+6.	The next prompt is for the desired number of samples to be taken during the timeline (see procedure for recommended number of samples) when done hit “Enter” to go to the next prompt.
 
 ![Number of samples](/Python%20PID%20Control%20Screenshots/HTUTPS_9_VSC%20Terminal%20during%20run%20time%20number%20of%20samples.png "Number of samples")
 
-7.	The next prompt is for the desired number of trials to be performed. The number of trials is the number of tank fills and empties (see procedure for recommended number of trials) when done hit enter to go to the next prompt.
+7.	The next prompt is for the desired number of trials to be performed. The number of trials is the number of tank fills and empties (see procedure for recommended number of trials) when done hit “Enter” to go to the next prompt.
 
 ![Number of trials](/Python%20PID%20Control%20Screenshots/HTUTPS_10_VSC%20Terminal%20during%20run%20time%20number%20of%20trials.png "Number of trials")
 
-8.	The next prompt is the Output File Name this can be whatever you want it to be and it will save to the same folder as the “Main().py” file.
+8.	The next prompt is the Output File Name this can be whatever you want it to be, and it will save to the same folder as the “MainV1.1.exe” file.
 
 ![File Name](/Python%20PID%20Control%20Screenshots/HTUTPS_11_VSC%20Terminal%20during%20run%20time%20output%20file%20name.png "File Name")
 
-9.	The Final prompt is to make sure you are ready to run the experiment when ready hit enter.
+9.	The Final prompt is to make sure you are ready to run the experiment when ready hit “Enter”.
 
 ![Ready to Run](/Python%20PID%20Control%20Screenshots/HTUTPS_12_VSC%20Terminal%20during%20run%20time%20enter%20to%20start%20sampiling.png "Ready to Run")
 
@@ -58,7 +58,6 @@ This guide is for Windows 10 and 11 if you have another operating system you wil
 ![Compleated Text File](/Python%20PID%20Control%20Screenshots/HTUTPS_16_VSC%20Terminal%20after%20completion.png "Compleated Text File")
 
 14.	That is how the python script runs and how the script will execute
-
 
 
 ## Importing the data to Excel
