@@ -187,19 +187,21 @@ def serialGetParmaters(inputValues, serRS232):
                 time.sleep(1)
             
             runsLeft = runsLeft + 1
-        
-        print()
-        print("Current run compleated and saved to file") #User feed back that the Run was compleated and saved to file
-        whatNow = int(input("Hit 1 to run again, or Enter to exit"))
 
-        if (whatNow == 1):
-            print("Script Running again")
-            main()
+    serRS232.close()
+
+    print()
+    print("Current run compleated and saved to file") #User feed back that the Run was compleated and saved to file
+    whatNow = int(input("Hit 1 to run again, or Enter to exit: "))
+
+    if (whatNow == 1):
+        print("Script Running again")
+        main()
             
-        else:
-            print("Exiting script and Closing")
-            time.sleep(5)
-            sys.exit()
+    else:
+        print("Exiting script and Closing")
+        time.sleep(5)
+        sys.exit()
 
 #------------------------------------------------------------------------------
 #------------------------------------------------------------------------------
