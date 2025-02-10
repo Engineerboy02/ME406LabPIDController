@@ -1,4 +1,4 @@
-# ME406LabPIDController
+# ME406 Lab PID Controller
 ME 406 PID lab serial communication
 
 This guide is for Windows 10 and 11 if you have another operating system you will need to make special changes to the installation and setup.
