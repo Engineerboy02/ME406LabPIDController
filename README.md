@@ -17,7 +17,7 @@ This guide is for Windows 10 and 11 if you have another operating system you wil
 
 ![Serial Interface](/Python%20PID%20Control%20Screenshots/HTUTPS_3_Serial%20Interface.png "Serial Interface")
 
-4.	After plugging the interface in launch, the exe by double clicking on it after a small delay you should be prompted with a window that says, “Serial adapter selected and ready to run Please enter the end time in sec:” If you get this message move to step 5 if not head to trouble shooting the serial interface section of this document LINK
+4.	After plugging the interface in launch, the exe by double clicking on it after a small delay you should be prompted with a window that says, “Serial adapter selected and ready to run Please enter the end time in sec:” If you get this message move to step 5 if not head to trouble shooting the serial interface section of this document [(LINK to Manual COM port selection)](https://github.com/Engineerboy02/ME406LabPIDController/tree/main?tab=readme-ov-file#finding-the-com-port-manualy)
 
 ![exe serial interface sucess](/Python%20PID%20Control%20Screenshots/HTUTPS/HTUTPS_4_exe%20serial%20adapter%20sucess.png "exe serial interface sucess")
 
