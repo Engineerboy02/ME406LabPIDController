@@ -5,71 +5,60 @@ This guide is for Windows 10 and 11 if you have another operating system you wil
 
 ## How to Use the Python Script
 
-1.	Once loaded into Visual Studio Code with the required libraries you should be ready to run after a few settings that need to be checked.
+1.	Head to the GitHub and Click on the “mainV1.1.exe”
 
-![VSC Terminal](/Python%20PID%20Control%20Screenshots/FDFGH_18_VSC%20screen%20with%20terminal.png "VSC Terminal")
+![GitHub Main page](/Python%20PID%20Control%20Screenshots/HTUTPS_1_download%20the%20exe%20part%201.png "GitHub Main page")
 
-2.	First start by plugging in the serial interface to any USB port on your laptop does require a USB Type A port.
+2.	Next download the “mainV1.1.exe” file and save to what ever folder you would like.
+
+![exe download](/Python%20PID%20Control%20Screenshots/HTUTPS_2_download%20the%20exe%20part%202.png "exe download")
+
+3.	Next start by plugging in the serial interface to any USB port on your laptop the interface does require a USB Type A port.
 
 ![Serial Interface](/Python%20PID%20Control%20Screenshots/HTUTPS_2_Serial%20Interface.png "Serial Interface")
 
-3.	Second hit “Windows key” and search for “device manager”.
+4.	After plugging the interface in launch the exe by double clicking on it after a small delay you should be prompted with a window that says “Serial adapter selected and ready to run Please enter the end time in sec:” If you get this message move to step 5 if not head to trouble shooting the serial interface section of this document LINK
 
-![Device Manager](/Python%20PID%20Control%20Screenshots/HTUTPS_3_Device%20maneger%20search.png "Device Manager")
+![Serial Interface](/Python%20PID%20Control%20Screenshots/HTUTPS_2_Serial%20Interface.png "Serial Interface")
 
-4.	Scroll down the list a look for “Ports(COM & LPT)” click the drop down and look for the “USB Serial Port (COMx)” this should be the required serial device before moving on take note of the COM port number (in this example it is “COM5”) you will need to add that information to the Python Script.
-
-![COM Port Number](/Python%20PID%20Control%20Screenshots/HTUTPS_4_Device%20manager%20look%20for%20the%20COMport%20number.png "COM Port Number")
-
-5.	Now head back to Visual Studio Code and navigate to the “Main().py” file.
-
-![Back To VSC main().py](/Python%20PID%20Control%20Screenshots/HTUTPS_5_Heading%20Back%20to%20VSC.png "Back To VSC main().py")
-
-6.	Now on Line 16 it says `port = 'COM3'  # Update to your serial port` change the “COM3” to what you found in device manager so in my example the line will now read `port = 'COM5'  # Update to your serial port`
-
-![COM Port Number in VSC](/Python%20PID%20Control%20Screenshots/HTUTPS_6_Updating%20the%20COM%20number%20in%20VSC.png "COM Port Number in VSC")
-
-7.	To run hit the Triangle  ![Run button](/Python%20PID%20Control%20Screenshots/SUVS_10_run%20button.png "Run Button")   in the top of the window to run. 
-
-![Run Button Global](/Python%20PID%20Control%20Screenshots/HTUTPS_7_Run%20Button%20location%20in%20VSC.png "Run Button Global")
-
-8.	You will then be asked a series of prompts in the terminal at the bottom of the screen the first prompt is ether the number of seconds you want to collect data for (see procedure for recommended time) when done hit enter to go to the next prompt.
+5.	You will then be asked a series of prompts in the terminal at the bottom of the screen the first prompt is ether the number of seconds you want to collect data for (see procedure for recommended time) when done hit enter to go to the next prompt.
 
 ![Run Time](/Python%20PID%20Control%20Screenshots/HTUTPS_8_VSC%20Terminal%20during%20run%20time.png "Run Time")
 
-9.	The next prompt is for the desired number of samples to be taken during to timeline (see procedure for recommended number of samples) when done hit enter to go to the next prompt.
+6.	The next prompt is for the desired number of samples to be taken during to timeline (see procedure for recommended number of samples) when done hit enter to go to the next prompt.
 
 ![Number of samples](/Python%20PID%20Control%20Screenshots/HTUTPS_9_VSC%20Terminal%20during%20run%20time%20number%20of%20samples.png "Number of samples")
 
-10.	The next prompt is for the desired number of trials to be performed. The number of trials is the number of tank fills and empties (see procedure for recommended number of trials) when done hit enter to go to the next prompt.
+7.	The next prompt is for the desired number of trials to be performed. The number of trials is the number of tank fills and empties (see procedure for recommended number of trials) when done hit enter to go to the next prompt.
 
 ![Number of trials](/Python%20PID%20Control%20Screenshots/HTUTPS_10_VSC%20Terminal%20during%20run%20time%20number%20of%20trials.png "Number of trials")
 
-11.	The next prompt is the Output File Name this can be whatever you want it to be and it will save to the same folder as the “Main().py” file.
+8.	The next prompt is the Output File Name this can be whatever you want it to be and it will save to the same folder as the “Main().py” file.
 
 ![File Name](/Python%20PID%20Control%20Screenshots/HTUTPS_11_VSC%20Terminal%20during%20run%20time%20output%20file%20name.png "File Name")
 
-12.	The Final prompt is to make sure you are ready to run the experiment when ready hit enter.
+9.	The Final prompt is to make sure you are ready to run the experiment when ready hit enter.
 
 ![Ready to Run](/Python%20PID%20Control%20Screenshots/HTUTPS_12_VSC%20Terminal%20during%20run%20time%20enter%20to%20start%20sampiling.png "Ready to Run")
 
-13.	Once you hit run you should get the output below and the number will slowly count up to the final number of samples.
+10.	Once you hit run you should get the output below and the number will slowly count up to the final number of samples.
 
 ![Initial Run](/Python%20PID%20Control%20Screenshots/HTUTPS_13_VSC%20Terminal%20during%20run%20time%20initial%20output.png "Initial Run")
 
-14.	After the run there will be a delay after the run to let the tank drain. The script polls data from the controller until the tank is “Empty” then stats again appending to the existing python file.
+11.	After the run there will be a delay after the run to let the tank drain. The script polls data from the controller until the tank is “Empty” then stats again appending to the existing python file.
 
 ![Tank Drain Delay](/Python%20PID%20Control%20Screenshots/HTUTPS_14_VSC%20Terminal%20during%20first%20delay.png "Tank Drain Delay")
-![alt text](image-1.png)
-15.	Now you just need to wait till the trials have been completed.
+
+12.	Now you just need to wait till the trials have been completed.
 
 ![Clock GIFF](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmUzcGpvazBidmg5bDYwZW92c3B2MWhldW94aGxzZWttbnlqaTJ6cCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3oz8xKaR836UJOYeOc/giphy.gif "Clock GIFF")
 
-16.	Once the trials have been completed you can open the .txt file named in step 11 in Excel.
+13.	Once the trials have been completed you can open the .txt file named in step 11 in Excel.
 
 ![Compleated Text File](/Python%20PID%20Control%20Screenshots/HTUTPS_16_VSC%20Terminal%20after%20completion.png "Compleated Text File")
-![alt text](image.png)
-17.	That is how the python script runs and how the script will execute
+
+14.	That is how the python script runs and how the script will execute
+
 
 
 ## Importing the data to Excel
