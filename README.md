@@ -31,7 +31,7 @@ This guide is for Windows 10 and 11 if you have another operating system you wil
 
 7.	The next prompt is for the desired number of trials to be performed. The number of trials is the number of tank fills and empties (see procedure for recommended number of trials) when done hit “Enter” to go to the next prompt.
 
-![Number of trials](/Python%20PID%20Control%20Screenshots/HTUTPS/HTUTPS_7_number%20of%20trials.png"Number of trials")
+![Number of trials](/Python%20PID%20Control%20Screenshots/HTUTPS/HTUTPS_7_number%20of%20trials.png "Number of trials")
 
 8.	The next prompt is the Output File Name this can be whatever you want it to be, and it will save to the same folder as the “MainV1.1.exe” file.
 
@@ -47,7 +47,7 @@ This guide is for Windows 10 and 11 if you have another operating system you wil
 
 11.	After the run there will be a delay after the run to let the tank drain. The script polls data from the controller until the tank is “Empty” then stats again appending to the existing python file.
 
-![Tank Drain Delay](/Python%20PID%20Control%20Screenshots/HTUTPS/HTUTPS_11_VSC%20Terminal%20during%20run%20time%20output%20file%20name.png "Tank Drain Delay")
+![Tank Drain Delay](/Python%20PID%20Control%20Screenshots/HTUTPS/HTUTPS_11_VSC%20Terminal%20during%20first%20delay.png "Tank Drain Delay")
 
 12.	Now you just need to wait till the trials have been completed.
 
@@ -55,7 +55,7 @@ This guide is for Windows 10 and 11 if you have another operating system you wil
 
 13.	Once the trials have been completed you can open the .txt file named in step 11 in Excel.
 
-![Compleated Text File](/Python%20PID%20Control%20Screenshots/HTUTPS_16_VSC%20Terminal%20after%20completion.png "Compleated Text File")
+![Compleated Text File](/Python%20PID%20Control%20Screenshots/HTUTPS/HTUTPS_13_VSC%20Terminal%20after%20completion.png"Compleated Text File")
 
 14.	That is how the python script runs and how the script will execute
 
