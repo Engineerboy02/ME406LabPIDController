@@ -61,23 +61,49 @@ def serialcreate():
 #------------------------------------------------------------------------------
 #------------------------------------------------------------------------------
 timebetweenruns = 60 #time delay to let tank drain fully in sec
-TankLowValue = 0.690 #Tank Low value for tank drain reset
+#TankLowValue = 0.690 #Tank Low value for tank drain reset
+
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+def tankempty(serRS232):
+
+    response = float(omegaResponse(0, serRS232))
+
+    TankLowValue = response + 0.01
+
+    print(TankLowValue)
+    
+    runAgain = int(input("Is the value above greater then the red number on the omega controller hit 0 to cont. and 1 to try again or 2 to manualy input a value: "))
+
+    if (runAgain == 1):
+        inputs(serRS232) #calls the function again
+
+    elif (runAgain == 2): #allows for manual entry of a start value
+        ManualValue = float(input("Manual tank level enter the red number on the display: "))
+        TankLowValue = ManualValue + 0.01
+
+        return(TankLowValue)
+    else:
+        return(TankLowValue)
+    
 
 #------------------------------------------------------------------------------
 #------------------------------------------------------------------------------
 def main():
     serRS232 = serialcreate()
-    inputValues = inputs()
+    inputValues = inputs(serRS232)
     #serialWrite(inputValues)
     serialGetParmaters(inputValues, serRS232)
     
 #------------------------------------------------------------------------------
 #------------------------------------------------------------------------------
-def inputs():
+def inputs(serRS232):
     #print("Please enter the new values:")
     PValue = 1 #float(input("P value float from 0.000 to 3.999: "))
     IValue = 1 #float(input("I value float from 0000 to 3999: "))
     DValue = 1 #float(input("D value float from 000.0 to 399.9: "))
+    
+    Tankzero = tankempty(serRS232) #Calls the Tankempty function to find the tank inital value
 
     print()
 
@@ -89,7 +115,7 @@ def inputs():
 
     outputFileName = str(input("Please enter the output filename: ")) #output file name the data for all trials just gets appended on the end
     
-    inputvalues = [PValue, IValue, DValue, Endtime, numberofsamples, numberofTrials, outputFileName] #Puts all the Inputs into and array
+    inputvalues = [PValue, IValue, DValue, Endtime, numberofsamples, numberofTrials, outputFileName, Tankzero] #Puts all the Inputs into and array
     
     print()
 
@@ -179,7 +205,7 @@ def serialGetParmaters(inputValues, serRS232):
         if inputValues[5] - runsLeft > 1: #decides weather or not to delay between trials (skips the last one)
             print("delay between runs")
             
-            while float(response) > TankLowValue: #Function waiting till the delay has been compleated
+            while float(response) > inputValues[7]: #Function waiting till the delay has been compleated
                                                 #One idea is that this could be changed to for (response > TankLowValue): .....
                 
                 print("-> -> -> -> -> ", end = '', flush=True) #User feed back that the delay is happening
