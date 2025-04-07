@@ -73,7 +73,7 @@ def tankempty(serRS232):
 
     print(TankLowValue)
     
-    runAgain = int(input("Is the value above greater then the red number on the omega controller hit 0 to cont. and 1 to try again or 2 to manualy input a value: "))
+    runAgain = int(input("Is the value above greater then the red number on the omega controller when the tank is empty hit 0 to cont. and 1 to try again or 2 to manualy input a value: "))
 
     if (runAgain == 1):
         inputs(serRS232) #calls the function again
@@ -155,11 +155,11 @@ def serialGetParmaters(inputValues, serRS232):
     
     for j in range( inputValues[5] ): #For loop to run for the desired number of trials
         
-        fileName = inputValues[6]  + ".txt" #+ str(j+1) #Builds the file name and adds .txt to make it openable
+        fileName = inputValues[6]  + ".csv" #+ str(j+1) #Builds the file name and adds .cvc to make it openable
 
         with open(fileName, "a") as f: #Writes the Headers to the file includes data lable and run number
                 #f.write(f"Run Number = {j+1} \n")
-                f.write(f"Date  formatted_time  TrialNumber   timestep    value \n")
+                f.write(f"Date formatted_time,  TrialNumber,   timestep,    value, \n")
 
         print()
         print("Starting new run", j+1) #User feedback as to what trial it is on
@@ -192,7 +192,7 @@ def serialGetParmaters(inputValues, serRS232):
             print(" -> -> -> -> ->",i , end = '', flush=True) #User feed back that data is being collected
             
             with open(fileName, "a", encoding="utf-8") as f: #writes data to the file to be saved 
-                f.write(f"{formatted_time}   {j+1}    {i}    {response}\r")
+                f.write(f"{formatted_time},   {j+1},     {i},    {response},\r")
 
             time.sleep(timeStep) #delay between samples to be taken
         
